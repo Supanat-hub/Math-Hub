@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="math.png">
+    <script src="/project.js"></script>
+    <script src="/darkmode.js"></script>
+    <title>Math Hub | SUPANAT_hub</title>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <img src="mathhub-logo1.png" alt="math_hub logo" id="logo">
+        <p class="text-cl-alclilicblue text-nav">ศูณย์รวมเครี่องมือสนองความ "ขี้เกียจ" วิชาคณิตศาสตร์</p>
+        <div class="nav-end">
+            <p class="text-cl">โหมดธีม</p>
+            <img src="/moon-solid.png" alt="moon" class= "icon-theme" id="icon-theme">
+            <!-- <button class="darkmode" title="darkmode switch" aria-hidden="true"></button> -->
+        </div>
+        
+    </div>
+    <div class="general">
+        <p class="text-general">ขณะนี้เว็ปเป็นเพียงเวอร์ชั่นทดลองมีแค่เครื่องมือเดียว คือ</p>
+        <p class="text-general">"เครี่องมือสร้างแม่สูตรคูณ"</p>
+        <a href="/multiplication-table/multiplication-table.html"></a>
+        <button class="button-css-df" onclick="document.location='/multiplication-table/multiplication-table.html'">คลิกที่นี่</button>
+    </div>
+    
+</body>
+
+<script>
+var logo = document.getElementById('logo');
+logo.addEventListener('click', (event) => {
+		event.preventDefault();
+        location.href ="/index.html"
+		}
+	);
+</script>
+
+</html>
