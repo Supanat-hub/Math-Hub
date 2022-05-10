@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multiplication table | SUPANAT hub</title>
+    <link rel="icon" type="image/x-icon" href="/math.png">
+    <link rel="stylesheet" href="multiplication-table.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <img src="/mathhub-logo1.png" alt="math_hub logo" class="nav-bar-img" id="logo">
+    </div>
+    <div class="title-text">
+        <p>แม่สูตรคูณเพื่อเธอ</p>
+    </div>
+    <div class="get-url">
+        <input id="get-input" type="text">
+        <button id="button-find" onclick="go();">ค้นหา</button>
+        <pre id="output-121"></pre>
+        <script src="multiplication-table.js"></script>
+
+    </div>
+
+
+
+</body>
+
+<script>
+var logo = document.getElementById('logo');
+logo.addEventListener('click', (event) => {
+		event.preventDefault();
+        location.href ="/index.html"
+		}
+	);
+</script>
+
+</html>
