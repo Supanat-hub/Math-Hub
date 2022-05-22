@@ -33,7 +33,7 @@ body {
 }
 
 .text-nav {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--text-cl);
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 .text-general {
-    border-top: 10re;
+    border-top: 10rem;
     font-size: 2rem;
     color: var(--text-cl);
 }
@@ -134,4 +134,36 @@ body {
 .darkmode.active::before{
 	left:auto;
 	right:4px;
+}
+
+@media screen and (max-width: 481px){
+    .nav-bar img {
+        width: 20%;
+        margin-left: 1rem;
+    }
+    .nav-bar .nav-end img {
+        width: 6%;
+    }
+    .nav-end {
+        margin-right: 1rem;
+    }
+    .text-nav {
+        font-size: 0.1rem;
+    }
+    .text-general {
+        border-top: 10rem;
+        font-size: 1rem;
+    }
+    .button-css-df {
+        margin-top: 1rem;
+        outline: none;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem 0.7rem;
+        background-color: #3dbefa;
+        transition-duration: 0.4s;
+        border: 1.5px solid #25baff;
+        font-size: 0.8rem;
+        letter-spacing: 0.1rem;
+    }
 }
