@@ -1,5 +1,3 @@
-
-
 function darkmode_init()
 {
 	let darkmodeSwitch = document.querySelector('.icon-theme');
@@ -32,7 +30,7 @@ function darkmode_init()
 	{
 		darkmodeSwitch.classList.add('active');
 		document.body.classList.toggle('dark-theme');
-		logo.src = "mathhub-logo1-white.png";
+		logo.src = "/mathhub-logo1-white.png";
 		logo_theme.src = '/sun-solid.png'
 	}
 	
@@ -44,14 +42,14 @@ function darkmode_init()
 		
 		if(document.body.classList.contains('dark-theme'))
 		{
-			logo.src = "mathhub-logo1-white.png";
+			logo.src = "/mathhub-logo1-white.png";
 			logo_theme.src = '/sun-solid.png'
 			darkmodeCookie.set('darkmode','true',2628000000,'/',false);
 			
 		}
 		else
 		{
-			logo.src = "mathhub-logo1.png";
+			logo.src = "/mathhub-logo1.png";
 			logo_theme.src = '/moon-solid.png'
 			darkmodeCookie.remove();
 		}
