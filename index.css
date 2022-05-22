@@ -74,8 +74,8 @@ body {
 
 .nav-bar{
     background-color: var(--nav-cl);
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -89,7 +89,7 @@ body {
     margin-right: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 .nav-bar .nav-end img {
-    width: 1.8rem;
+    width: 2.5%;
 }
 
 .darkmode{
