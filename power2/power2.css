@@ -27,3 +27,64 @@
     --nav-shadow: #ffffff33;
     --text-cl: #ffffff;
 }
+
+body {
+    background-image: linear-gradient(to right, var(--bg-cl-1) ,var(--bg-cl-2));
+   
+}
+
+.nav-bar{
+    background-color: var(--nav-cl);
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 var(--nav-shadow);
+    width: 100%;
+    height: 100%;
+}
+
+.text-cl {
+    color: var(--text-cl);
+}
+
+.text-nav {
+    font-size: 1rem;
+    color: var(--text-cl);
+}
+
+.title-text p {
+    color: var(--text-cl);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    margin-top: 2rem;
+}
+
+.nav-end {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+
+.nav-bar img {
+    width: 12%;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.icon-theme {
+    cursor: pointer;
+}
+
+.nav-bar .nav-end img {
+    width: 2.5%;
+}
