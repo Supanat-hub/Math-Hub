@@ -135,3 +135,52 @@ body {
     color: var(--text-cl);
     font-size: 1.2rem;
 }
+
+@media screen and (max-width: 481px){
+    .nav-bar img {
+        width: 20%;
+        margin-left: 1rem;
+    }
+    .nav-bar .nav-end img {
+        width: 6%;
+    }
+    .nav-end {
+        margin-right: 1rem;
+    }
+    .text-nav {
+        font-size: 0.1rem;
+    }
+    .get-url button {
+        margin-top: 1rem;
+        outline: none;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.6rem 0.8rem;
+        background-color: #3dbefa;
+        transition-duration: 0.4s;
+        border: 1.5px solid #25baff;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+    }
+    .title-text p {
+        font-size: 1.3rem;
+        letter-spacing: 0.2rem;
+        margin-top: 1.5rem;
+    }
+    .get-url pre {
+        margin-top: 2rem;
+        margin-left: 0.8rem;
+        margin-bottom: 1rem;
+        word-spacing: 0.5rem;
+        line-height: 1.2rem;
+        color: var(--text-cl);
+        font-size: 1rem;
+    }
+    .get-url input {
+        width: 70%;
+        max-width: 25rem;
+        padding: 0.7rem 1rem;
+        margin: 3rem 1rem 2rem 1rem;
+        font-size: 1rem;
+    }
+}
