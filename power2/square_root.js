@@ -20,8 +20,13 @@ function go() {
         return
     }
 
+    if (number < 0) {
+        document.getElementById("output-121").innerHTML = 'กรุณากรอกจำนวนเต็มบวกเท่านั้น';
+        return
+    }
+
     if (x == true) {
-        document.getElementById("output-121").innerHTML = 'กรุณากรอกจำนวนเต็มเท่านั้น';
+        document.getElementById("output-121").innerHTML = 'กรุณากรอกจำนวนเต็มบวกเท่านั้น';
         return
     }
     
