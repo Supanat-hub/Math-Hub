@@ -88,3 +88,41 @@ body {
 .nav-bar .nav-end img {
     width: 2.5%;
 }
+
+.get-url {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-url input {
+    width: 80%;
+    max-width: 30rem;
+    outline: none;
+    border-radius: 0.5rem;
+    background-color: var(--bg-cl-2);
+    text-align: center;
+    padding: 0.7rem 1rem;
+    margin: 3rem 1rem 2rem 1rem;
+    border: 2px solid var(--border-cl);
+    color: var(--text-cl);
+    font-size: 1.2rem;
+}
+
+.get-url button {
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    background-color: #00c8ff;
+    transition-duration: 0.4s;
+    border: 2px solid #00c8ff;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.get-url button:hover {
+    cursor: pointer;
+    background-color: #00c8ff57;
+}
