@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>power2 | SUPANAT hub</title>
-    <title>multiplication table | SUPANAT hub</title>
+    <title>square root | SUPANAT hub</title>
     <script src="/project.js"></script>
     <script src="/darkmode.js"></script>
     <link rel="icon" type="image/x-icon" href="/math.png">
@@ -21,15 +20,23 @@
         
     </div>
     <div class="title-text">
-        <p>แก้รากที่สอง</p>
+        <p>ถอดรากที่สอง</p>
     </div>
     <div class="get-url">
         <input id="get-input" type="text">
         <button id="button-find" onclick="go();">ถอดรากที่สอง</button>
         <pre id="output-121"></pre>
-        <script src="multiplication-table.js"></script>
+        <script src="square_root.js"></script>
 
     </div>
     
 </body>
+<script>
+    var logo = document.getElementById('logo');
+    logo.addEventListener('click', (event) => {
+            event.preventDefault();
+            location.href ="/home.html"
+            }
+        );
+</script>
 </html>

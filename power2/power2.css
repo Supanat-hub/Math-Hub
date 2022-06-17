@@ -126,3 +126,12 @@ body {
     cursor: pointer;
     background-color: #00c8ff57;
 }
+
+
+.get-url pre {
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    word-spacing: 0.5rem;
+    color: var(--text-cl);
+    font-size: 1.2rem;
+}
