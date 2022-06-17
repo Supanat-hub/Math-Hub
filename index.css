@@ -157,6 +157,7 @@ body {
     }
     .button-css-df {
         margin-top: 1rem;
+        margin-bottom: 1rem;
         outline: none;
         border: none;
         border-radius: 0.5rem;
